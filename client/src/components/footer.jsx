@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-gray-400 text-xs flex justify-center">
-            <p>&copy; 2023-2024 Urbanhypes@gmail.in</p>
+            <p>&copy; 2023-2024 Urbanhypes.in</p>
           </div>
         </div>
     </footer>
