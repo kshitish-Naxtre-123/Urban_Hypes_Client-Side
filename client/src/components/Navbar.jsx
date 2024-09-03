@@ -12,8 +12,8 @@ const Navbar = () => {
     const { data: categories } = useGetAllCetgoriesQuery();
     console.log("catgeories", categories);
   return (
-    <div className="mt-2 flex flex-row gap-2 items-center bg-green-950 justify-around font-poppins">
-      <div className="relative flex items-center gap-4">
+    <div className="flex flex-row gap-2 items-center bg-gradient-to-r from-black to-violet-900 justify-around font-poppins">
+      <div className="relative flex items-center gap-10">
         <img src={Logo} alt="logo" width={80} height={80} />
         <ul className="flex gap-5 text-white font-bold relative">
           <li className="group relative">
@@ -47,7 +47,7 @@ const Navbar = () => {
         }}
         size="middle"
       />
-      <div className="flex items-center gap-5">
+      <div className="flex items-center gap-10">
         <PiUserCircle className="w-[32px] h-[32px]" color="white" />
         <MdOutlineFavorite className="w-[30px] h-[30px]" color="white" />
         <FaCartShopping className="w-[26px] h-[26px]" color="white" />
